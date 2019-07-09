@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        HTML Attributes
+    </title>
+</head>
+
+<body>
+    <form action="info.php" method="POST">
+        <fieldset>
+            <legend>
+                Personal Information
+            </legend>
+            <label for="Name">Name</label>
+            <input id="Name" name="Name" type="text" /> <br>
+            <label for="Password">Password</label>
+            <input id="Password" name="Password" type="password" /> <br>
+            <label for="Gender">Gender</label>
+            <select name="Gender" id="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select> <br>
+            <label for="Qualification">Qualification</label>
+            <input id="Qualification" value="Matric" name="Qualification" type="radio">Matric</input>
+            <input id="Qualification" value="Fsc" name="Qualification" type="radio">Fsc</input>
+            <input id="Qualification" value="Bachelor" name="Qualification" type="radio">Bachelor</input> <br>
+            <label for="Test">test</label>
+            <input id="Test" value="1" name="Test" type="checkbox">1</input>
+            <input id="Test" value="2" name="Test" type="checkbox">2</input>
+            <input id="Test" value="3" name="Test" type="checkbox">3</input> <br>
+            <button type="submit" value="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
